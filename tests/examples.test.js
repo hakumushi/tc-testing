@@ -28,12 +28,12 @@ test("Firts Test", async t => {
   // await t.wait(5000)
   await t.expect(articleHeader).contains('Paulo')
 
+  /*
   // Click, DoubleClick, RightClick
   await t.click('id', { options })
   await t.doubleClick('id', { options })
   await t.rightClick('id', { options })
 
-  /*
   // TypeText
   await t.typeText('id', 'text', { replace: true, paste: true })
 
