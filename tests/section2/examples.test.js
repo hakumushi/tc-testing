@@ -15,7 +15,7 @@ fixture`Getting started with testcafe`
     // Runs after each test
   })
 
-test("Firts Test", async t => {
+test.skip("Firts Test", async t => {
   const developerName = Selector("#developer-name")
   const submitButton = Selector("#submit-button")
   const articleHeader = Selector("#article-header").innerText
