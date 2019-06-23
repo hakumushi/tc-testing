@@ -9,7 +9,6 @@ test("should try to login and get error message", async t => {
   const loginForm = Selector('#login_form')
   const userName = Selector('#user_login')
   const userPassword = Selector('#user_password')
-  //const rememberMeCheck = Selector('#user_remember_me')
   const errorMessage = Selector('.alert-error').innerText
 
   // Actions
