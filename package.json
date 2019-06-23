@@ -5,10 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test:chrome": "testcafe chrome ./tests/section4",
+    "test:chrome:5": "testcafe -c 5 chrome ./tests/section4",
     "test:chrome:headless": "testcafe chrome:headless ./tests",
     "test:chrome:mobile": "testcafe 'chrome:emulation:device=iphone X' ./tests",
     "test:firefox": "testcafe firefox ./tests",
-    "test:safari": "testcafe safari ./tests"
+    "test:safari": "testcafe safari ./tests",
+    "test:multiple": "testcafe chrome,safari ./tests/section4"
   },
   "author": "",
   "license": "ISC",
